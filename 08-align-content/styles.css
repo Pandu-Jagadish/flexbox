@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 1rem;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Base Multi-line Container Setup */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    /* 1. MUST HAVE wrapping enabled! */
+    height: 280px;
+    /* 2. MUST HAVE fixed height to see vertical spacing! */
+    width: 320px;
+    /* Narrow width forces boxes onto 2 lines */
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 6px;
+    border: 2px solid #bdc3c7;
+}
+
+.box {
+    background-color: #9b59b6;
+    color: white;
+    padding: 15px;
+    margin: 5px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 4px;
+    flex-basis: 120px;
+    /* Forces two 120px boxes per row */
+    flex-grow: 1;
+}
+
+/* 1. CENTER ALIGNMENT OF ROWS */
+.content-center {
+    align-content: center;
+}
+
+/* 2. SPACE BETWEEN ROWS */
+.content-space-between {
+    align-content: space-between;
+}

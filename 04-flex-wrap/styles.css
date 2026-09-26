@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+    background: #f4f4f9;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    width: 450px;
+    background: #e0e0e0;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.box {
+    background: #e67e22;
+    color: white;
+    padding: 15px;
+    margin: 5px;
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+/* PROPERTY OPTIONS */
+.wrap-nowrap {
+    flex-wrap: nowrap;
+}
+
+.wrap-wrap {
+    flex-wrap: wrap;
+}
+
+.wrap-reverse {
+    flex-wrap: wrap-reverse;
+}

@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+    background: #f4f4f9;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    height: 130px;
+    background: #e0e0e0;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.box {
+    background: #2ecc71;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.no-height {
+    padding: 10px 20px;
+}
+
+/* Height is omitted so stretch works */
+.font-small {
+    font-size: 12px;
+    padding-top: 30px;
+}
+
+.font-large {
+    font-size: 28px;
+}
+
+/* PROPERTY OPTIONS */
+.ai-stretch {
+    align-items: stretch;
+}
+
+.ai-start {
+    align-items: flex-start;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.ai-end {
+    align-items: flex-end;
+}
+
+.ai-baseline {
+    align-items: baseline;
+}

@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+    background: #f4f4f9;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    background: #e0e0e0;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.box {
+    background: #3498db;
+    color: white;
+    padding: 15px;
+    margin: 5px;
+    font-weight: bold;
+    border-radius: 4px;
+    text-align: center;
+}
+
+/* PROPERTY OPTIONS */
+.dir-row {
+    flex-direction: row;
+}
+
+.dir-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.dir-column {
+    flex-direction: column;
+}
+
+.dir-column-reverse {
+    flex-direction: column-reverse;
+}

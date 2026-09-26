@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+    background: #f4f4f9;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    background: #e0e0e0;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+/* Narrow container forces items to squeeze */
+.small-container {
+    width: 320px;
+}
+
+.box {
+    background: #d35400;
+    color: white;
+    padding: 15px 5px;
+    margin: 5px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 4px;
+    flex-basis: 150px;
+    /* Desired starting width */
+}
+
+/* PROPERTY OPTIONS */
+.shrink-1 {
+    flex-shrink: 1;
+}
+
+.shrink-0 {
+    flex-shrink: 0;
+    background: #c0392b;
+}
+
+/* Refuses to squeeze */
+.shrink-3 {
+    flex-shrink: 2;
+    background: #8e44ad;
+}
+
+/* Squeezes 3x faster */

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Flex Shrink Options</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h2>1. flex-shrink: 1 (Default - All items shrink equally when crowded)</h2>
+    <div class="container small-container">
+      <div class="box shrink-1">shrink: 1</div>
+      <div class="box shrink-1">shrink: 1</div>
+      <div class="box shrink-1">shrink: 1</div>
+    </div>
+
+    <h2>2. flex-shrink: 0 (Box 2 refuses to shrink, keeps full 150px)</h2>
+    <div class="container small-container">
+      <div class="box shrink-1">shrink: 1</div>
+      <div class="box shrink-0">shrink: 0</div>
+      <div class="box shrink-1">shrink: 1</div>
+    </div>
+
+    <h2>3. flex-shrink: 3 (Box 2 shrinks 3x faster than others)</h2>
+    <div class="container small-container">
+      <div class="box shrink-1">shrink: 1</div>
+      <div class="box shrink-3">shrink: 3</div>
+      <div class="box shrink-1">shrink: 1</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+    background: #f4f4f9;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    background: #e0e0e0;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.box {
+    background: #1abc9c;
+    color: white;
+    padding: 15px;
+    margin: 5px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+/* PROPERTY OPTIONS */
+.grow-0 {
+    flex-grow: 0;
+}
+
+.grow-1 {
+    flex-grow: 1;
+}
+
+.grow-2 {
+    flex-grow: 2;
+    background: #16a085;
+}
